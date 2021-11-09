@@ -5,9 +5,15 @@ body {
 
 .App {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-flow: column;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.56rem;
+}
+
+.logo {
+  margin: 0.5rem;
+  height: 8rem;
 }
 
 .Header {
