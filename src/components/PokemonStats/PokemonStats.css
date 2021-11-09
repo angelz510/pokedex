@@ -1,35 +1,28 @@
-.stats-container {
+.details-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: ghostwhite;
   width: 100%;
-}
-
-p {
   text-transform: capitalize;
+  font-size: 1.13rem;
 }
 
-.pokemon-details {
-  display: flex;
+.electric {
+  background-color: rgb(255, 255, 161);
 }
 
-.pokemon-art {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 1rem;
+.grass {
+  background-color: #b1f1ae;
 }
 
-/* img {
-  height: 15rem;
-  margin: 0;
-} */
-
-.pokemon-name {
-  font-weight: bold;
+.fire {
+  background-color: #e6684f;
 }
 
-.stats-container p {
-  margin: 0.5rem;
+.rock {
+  background-color: rgb(148, 81, 81);
+}
+
+.bug {
+  background-color: #f6d6a7;
 }

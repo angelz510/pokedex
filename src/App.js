@@ -2,7 +2,6 @@ import { useState } from "react";
 import axios from "axios";
 import "./App.css";
 import PokemonLogo from "./assets/pokemon-logo.png";
-
 import PokemonStats from "./components/PokemonStats/PokemonStats";
 
 function App() {
