@@ -1,0 +1,35 @@
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: ghostwhite;
+  width: 100%;
+}
+
+p {
+  text-transform: capitalize;
+}
+
+.pokemon-details {
+  display: flex;
+}
+
+.pokemon-art {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+/* img {
+  height: 15rem;
+  margin: 0;
+} */
+
+.pokemon-name {
+  font-weight: bold;
+}
+
+.stats-container p {
+  margin: 0.5rem;
+}
