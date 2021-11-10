@@ -3,8 +3,17 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 60vh;
   text-transform: capitalize;
   font-size: 1.13rem;
+}
+
+.normal {
+  background-color: #a9a877;
+}
+
+.fighting {
+  background-color: #c03128;
 }
 
 .electric {
@@ -20,9 +29,44 @@
 }
 
 .rock {
-  background-color: rgb(148, 81, 81);
+  background-color: #b8a038;
 }
 
 .bug {
   background-color: #f6d6a7;
+}
+
+.water {
+  background-color: rgb(127, 199, 241);
+}
+
+.ghost {
+  background-color: rgb(82, 82, 82);
+  color: whitesmoke;
+}
+
+.poison {
+  background-color: rgb(165, 107, 219);
+}
+
+.ice {
+  background-color: #99d7d8;
+}
+
+.psychic {
+  background-color: rgb(104, 83, 104);
+  color: whitesmoke;
+}
+
+.ground {
+  background-color: #e1c068;
+}
+
+.dragon {
+  background-color: rgb(77, 65, 93);
+  color: whitesmoke;
+}
+
+.fairy {
+  background-color: pink;
 }
